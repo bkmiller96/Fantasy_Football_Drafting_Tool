@@ -2217,7 +2217,7 @@ scrape_number_fire <- function(){
   Sys.sleep(5)
   
   webElem17 <- remDr$findElement(using = 'xpath', '//*[@id="identifierId"]')
-  webElem17$sendKeysToElement(list("bradkmiller96@gmail.com"))
+  webElem17$sendKeysToElement(list("ENTER YOUR EMAIL"))
   
   Sys.sleep(3)
   
@@ -2227,7 +2227,7 @@ scrape_number_fire <- function(){
   Sys.sleep(3)
   
   webElem19 <- remDr$findElement(using = 'xpath', '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input')
-  webElem19$sendKeysToElement(list("ohioXC#96"))
+  webElem19$sendKeysToElement(list("ENTER YOUR PASSWORD"))
   
   Sys.sleep(3)
   

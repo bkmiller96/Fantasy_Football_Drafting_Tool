@@ -47,8 +47,6 @@ final_scrape <- read_csv("2021_nfl_season_projections.csv") %>%
 
 # UI ------
 ui <- fluidPage(theme = "splash_theme.css",
-                #favicon of splash logo
-                # tags$head(tags$link(rel="shortcut icon", href="splash-fav-32.ico")),
                 dashboardPage(title = "FF Drafting Tool",
                               dashboardHeader(title = tags$div(class = "app_title_header",
                                                                tags$img(src = 'fantasy_football.png', height = 50, width =80)
